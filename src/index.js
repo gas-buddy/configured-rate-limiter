@@ -33,5 +33,7 @@ export default class RateLimiter {
         ...rest,
       });
     });
+
+    return this;
   }
 }
